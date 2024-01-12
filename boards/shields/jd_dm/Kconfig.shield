@@ -1,0 +1,11 @@
+# Copyright (C) 2024 James-delorenzo
+# SPDX-License-Identifier: MIT
+
+config SHIELD_JD_DM
+    bool
+
+config SHIELD_JD_DM_LEFT
+    def_bool $(shields_list_contains,jd_dm_left)
+
+config SHIELD_JD_DM_RIGHT
+    def_bool $(shields_list_contains,jd_dm_right)

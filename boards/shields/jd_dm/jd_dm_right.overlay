@@ -1,0 +1,20 @@
+/*
+* Copyright (C) 2024 James-delorenzo
+* SPDX-License-Identifier: MIT
+*/
+
+#include <jd_dm.dtsi>
+
+&default_transform {
+    col-offset = <6>;
+}
+
+# TODO: check gpio pins after creation
+&kscan0 {
+    col-gpios = <&prod_micro 8 GPIO_ACTIVE_HIGH>,
+                <&prod_micro 7 GPIO_ACTIVE_HIGH>,
+                <&prod_micro 6 GPIO_ACTIVE_HIGH>,
+                <&prod_micro 5 GPIO_ACTIVE_HIGH>,
+                <&prod_micro 4 GPIO_ACTIVE_HIGH>;
+                <&prod_micro 3 GPIO_ACTIVE_HIGH>;
+};
