@@ -9,7 +9,7 @@
     col-offset = <6>;
 }
 
-# TODO: check gpio pins after creation
+/* TODO: check gpio pins after creation */
 &kscan0 {
     col-gpios = <&pro_micro 8 GPIO_ACTIVE_HIGH>,
                 <&pro_micro 7 GPIO_ACTIVE_HIGH>,
