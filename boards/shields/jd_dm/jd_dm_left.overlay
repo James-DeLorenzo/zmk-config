@@ -3,7 +3,7 @@
 * SPDX-License-Identifier: MIT
 */
 
-#include <jd_dm.dtsi>
+#include "jd_dm.dtsi"
 
 &kscan0 {
     col-gpios = <&prod_micro 8 GPIO_ACTIVE_HIGH>,
