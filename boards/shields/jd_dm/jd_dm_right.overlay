@@ -7,7 +7,7 @@
 
 &default_transform {
     col-offset = <6>;
-}
+};
 
 /* TODO: check gpio pins after creation */
 &kscan0 {
