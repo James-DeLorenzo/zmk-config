@@ -1,4 +1,4 @@
-*
+/*
 * Copyright (C) 2024 James-delorenzo
 * SPDX-License-Identifier: MIT
 */
@@ -16,7 +16,6 @@
         compatible = "zmk,kscan-gpio-matrix";
 
         diode-direction = "row2col";
-
     };
 
     default_transform: keymap_transform_0 {
